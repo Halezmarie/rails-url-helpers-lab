@@ -1,6 +1,8 @@
 class StudentsController < ApplicationController
   before_action :set_student, only: [:show, :activate]
   
+
+  #review 
   def index
     @students = Student.all
   end
